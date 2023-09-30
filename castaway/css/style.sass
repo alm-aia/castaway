@@ -1,0 +1,329 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+li
+  list-style-type: none
+a
+  text-decoration: none
+
+p
+  word-wrap: break-word
+  color: white
+
+.container
+  width: 1300px
+  margin: 0 auto
+body
+  font-family: 'DM Sans', sans-serif
+  font-weight: normal
+  background: #191919
+.home
+  padding-top: 26px
+  .navbar
+    width: 1440px
+    padding: 0 50px 0 50px
+    display: flex
+    align-items: center
+    justify-content: space-between
+    .nav-links
+      display: flex
+      gap: 40px
+      padding: 20px 0 20px 0
+      li
+        list-style-type: none
+        a
+          text-decoration: none
+          font-size: 17px
+          color: white
+          &:hover
+            color: #118DA8
+            transition: 150ms ease-out
+          &:active
+            color: #075465
+  .container
+    padding-top: 40px
+    position: relative
+    display: flex
+    gap: 60px
+    .header-img
+      width: 650px
+      height: 873px
+      background-image: url(../img/header-img.png)
+      background-size: cover
+      background-repeat: no-repeat
+    .header-sticks
+      position: absolute
+      top: 18px
+      left: -24px
+    .left
+      display: flex
+      flex-direction: column
+      gap: 90px
+      justify-content: center
+      .boxx
+        height: 74px
+      .header-title
+        font-size: 70px
+        line-height: 88px
+        letter-spacing: 3.2px
+        width: 530px
+        .next
+          font-size: 75px
+          position: relative
+          .next-stick
+            position: absolute
+            bottom: -35px
+            left: -2px
+        .bold
+          font-weight: 700
+          font-size: 80px
+      .header-music-platforms
+        display: flex
+        flex-direction: column
+        gap: 16px
+        padding: 0 22px 0 22px
+        .title-music-platforms
+          font-size: 15px
+        .music-platform-list
+          display: flex
+          gap: 17px
+          li
+            list-style-type: none
+            a
+              text-decoration: none
+.latest
+  .container
+    display: flex
+    justify-content: space-between
+    height: 99px
+    margin-top: 100px
+    margin-bottom: 40px
+    .latest-title
+      top: 0
+      left: 0
+      font-size: 64px
+      line-height: 79.2px
+      letter-spacing: 6px
+    a
+      width: 178px
+      height: 51px
+      background: #118DA8
+      border-radius: 6px
+      display: flex
+      align-items: center
+      justify-content: center
+      font-size: 17px
+      color: white
+      text-decoration: none
+      margin-top: 23px
+      margin-bottom: 23px
+.episodes
+  display: flex
+  flex-direction: column
+  gap: 60px
+  margin-bottom: 260px
+  .container
+    display: flex
+    gap: 53px
+    padding: 40px
+    background: black
+    border-radius: 32px
+    .episode-content
+      .episode-btn1
+        background-color: #191919
+        padding: 5px 16px
+        display: inline-block
+        color: white
+        font-size: 18px
+        border-radius: 6px
+        margin-top: 7px
+        text-decoration: none
+        margin-bottom: 55px
+      .episode-btn2
+        text-decoration: none
+        color: #118DA8
+        font-size: 17px
+      .episode-content-title
+        font-size: 64px
+        width: 650px
+        margin-top: 20px
+        margin-bottom: 30px
+      .episode-content-description
+        font-size: 22px
+        color: rgba(255, 255, 255, 0.70)
+        width: 750px
+        margin-bottom: 25px
+      .episode-btn3
+        display: inline-block
+        padding: 12px 15px 12px 20px
+        background-color: #118DA8
+        border-radius: 6px
+        text-decoration: none
+        color: white
+        font-size: 18px
+.about
+  margin-bottom: 100px
+  .container
+    display: flex
+    gap: 60px
+    align-items: center
+    .about-content
+      height: 440px
+      .circle
+        width: 112px
+        height: 112px
+        background-color: #118DA8
+        border-radius: 50%
+        display: flex
+        align-items: center
+        justify-content: center
+        margin-bottom: 20px
+        a
+          text-decoration: none
+          color: white
+          font-size: 48px
+      .about-btn
+        color: #118DA8
+        font-size: 18px
+        text-decoration: none
+        margin-bottom: 15px
+      .about-title
+        font-size: 65px
+        margin-bottom: 30px
+      .about-description
+        color: #B8B8B8
+        font-size: 22px
+        width: 550px
+      .second
+        margin-top: 35px
+.subscribe
+  .container
+    padding: 60px 60px 0 60px
+    position: relative
+    display: flex
+    justify-content: space-between
+    background: black
+    border-radius: 32px
+    margin-bottom: 100px
+    .subscribe-icon
+      position: absolute
+      bottom: -30px
+      left: -40px
+    .subscribe-content
+      a
+        color: #118DA8
+        font-size: 18px
+      p
+        font-size: 72px
+        letter-spacing: 5px
+    .subscribe-input
+      display: flex
+      flex-direction: column
+      gap: 20px
+      input
+        border-radius: 6px
+        border: 1px solid #191919
+        background: #191919
+        padding: 26px
+        width: 522px
+        height: 82px
+        &::placeholder
+          color: rgba(255, 255, 255, 0.70)
+          font-size: 24px
+      .subscribe-input-btn
+        width: 87px
+        height: 48px
+        background: #118DA8
+        border-radius: 6px
+        display: flex
+        align-items: center
+        justify-content: center
+        border: none
+        a
+          color: rgba(255, 255, 255, 0.70)
+          font-size: 15px
+.review
+  margin-bottom: 200px
+  .container
+    display: flex
+    flex-wrap: wrap
+    width: 1310px
+  .review-card
+    padding: 54px 60px 51px 50px
+    background-color: black
+    border-radius: 32px
+    width: 423px
+    margin-right: 16px
+    margin-bottom: 16px
+    .review-stars
+      margin-bottom: 21px
+    .review-description
+      font-size: 36px
+      width: 290px
+      margin-bottom: 19px
+    &:nth-of-type(1)
+      p
+        width: 313px
+    &:nth-of-type(3)
+      margin-right: 0
+      p
+        width: 288px
+    &:nth-of-type(4)
+      margin-bottom: 0
+      p
+        width: 301px
+    &:nth-of-type(5)
+      margin-bottom: 0
+      p
+        width: 313px
+    &:nth-of-type(6)
+      margin-right: 0
+      margin-bottom: 0
+      p
+        width: 317px
+    .review-title
+      color: rgba(255, 255, 255, 0.70)
+      font-size: 23px
+      line-height: 28.8px
+      letter-spacing: 1.5px
+.contact
+  .container
+    display: flex
+    gap: 16px
+    .footer-logo
+      width: 447px
+      display: flex
+      flex-direction: column
+      gap: 20px
+      .footer-network-list
+        display: flex
+        gap: 10px
+    .footer-nav-list
+      display: flex
+      flex-direction: column
+      gap: 10px
+      width: 179px
+      a
+        color: white
+        font-size: 17px
+    .contact-list
+      display: flex
+      flex-direction: column
+      gap: 10px
+      width: 179px
+      .contact-li
+        a
+          font-size: 17px
+          color: white
+    .footer-music-platforms-list
+      display: flex
+      gap: 17px
+
+
+
+
+
+
+
+
